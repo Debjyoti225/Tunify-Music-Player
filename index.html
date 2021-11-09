@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="aos.css">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        </head>
+<body>
+    <nav id="header">
+        <ul>
+            <li class="brand"><img src="logo1.jpg" alt="Tunify"> Tunify</li>
+            <li><a href="#header">Playlist</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="home">
+        <div class="songList">
+            <h1>Your Ultimate Music Station</h1>
+            <div class="songItemContainer">
+                <div class="songItem"  data-aos="fade-right" data-aos-delay="100">
+                    <img alt="1">
+                    <span class="songName">Shayad - Love Aajkal 2</span>
+                    <span class="songlistplay"><span class="timestamp">04:08 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem" data-aos="fade-right" data-aos-delay="200">
+                    <img alt="1">
+                    <span class="songName">Kun Faya Kun - Rockstar</span>
+                    <span class="songlistplay"><span class="timestamp">07:52 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem" data-aos="fade-right" data-aos-delay="300">
+                    <img alt="1">
+                    <span class="songName">Phir Se Udd Chala - Rockstar</span>
+                    <span class="songlistplay"><span class="timestamp">04:32 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem" data-aos="fade-right" data-aos-delay="400">
+                    <img alt="1">
+                    <span class="songName">Nadaan Parindey - Rockstar</span>
+                    <span class="songlistplay"><span class="timestamp">06:26 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem" data-aos="fade-right" data-aos-delay="500">
+                    <img alt="1">
+                    <span class="songName">Yeh Dooriyan</span>
+                    <span class="songlistplay"><span class="timestamp">04:01 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem" data-aos="fade-right" data-aos-delay="600">
+                    <img alt="1">
+                    <span class="songName">Mast Magan</span>
+                    <span class="songlistplay"><span class="timestamp">04:40 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem" data-aos="fade-right" data-aos-delay="700">
+                    <img alt="1">
+                    <span class="songName">Hawayein</span>
+                    <span class="songlistplay"><span class="timestamp">04:49 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem" data-aos="fade-right" data-aos-delay="100">
+                    <img alt="1">
+                    <span class="songName">Tera Yaar Hoon Mein</span>
+                    <span class="songlistplay"><span class="timestamp">04:24 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem" data-aos="fade-right" data-aos-delay="200">
+                    <img alt="1">
+                    <span class="songName">Humraah</span>
+                    <span class="songlistplay"><span class="timestamp">04:59 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem" data-aos="fade-right" data-aos-delay="300">
+                    <img alt="1">
+                    <span class="songName">Pashmina</span>
+                    <span class="songlistplay"><span class="timestamp">04:43 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <!-- Section: About -->
+    <section id="about">
+        <div class="about">
+            <div class="img" data-aos="flip-right" data-aos-delay="200">
+                <img src="profile.jpg" alt="profile picture">
+            </div>
+            <div class="content1" data-aos="fade-up-left" data-aos-delay="400">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="content2" data-aos="fade-left" data-aos-delay="200">
+                <h2>About Tunify & Author</h2>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing3.gif" width="42px" alt="" id="gif" style="vertical-align: middle;">
+            <span id="masterSongName" style="vertical-align: middle;">Shayad - Love Aajkal 2</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	        speed: 1000,
+	        speedAsDuration: true
+        });
+    </script>
+    
+</body>
+</html>
